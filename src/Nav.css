@@ -1,0 +1,10 @@
+.nav--link a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+nav {
+  position: fixed;
+
+  width: 100%;
+}

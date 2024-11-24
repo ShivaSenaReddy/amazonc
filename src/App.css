@@ -1,0 +1,73 @@
+/* nav */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.amazon-logo {
+  width: 130px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #131921;
+}
+nav a {
+  margin-left: 100px;
+}
+nav a span {
+  display: block;
+}
+.search-Amazon-Input {
+  height: 2rem;
+  flex-grow: 1;
+}
+.search-Amazon {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav div {
+  margin-left: 50px;
+}
+/* //homepage */
+
+.homepage--img {
+  width: 100vw;
+}
+/* Product */
+
+.product {
+  display: flex;
+  /* text-align: center; */
+}
+.product--img {
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  /* height: 300px; */
+}
+.product div {
+  margin: 1rem;
+  /* background-color: red; */
+}
+.product div button {
+  text-align: center;
+  margin: 15%;
+  background-color: #ffd814;
+  border-radius: 7%;
+  padding: 5px;
+  border: none;
+}
+
+.productList {
+  /* transform: translate(0, -50%); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  z-index: 100;
+  background-color: #f7f7f7;
+}
